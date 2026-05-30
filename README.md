@@ -95,10 +95,6 @@ The agent receives a tuple of 11 binary values describing immediate danger, curr
 
 `agent.py` updates the Q-table with the Bellman equation after each move. `train.py` decays exploration over time and saves checkpoints to `q_table.pkl`; the best-scoring table is saved to `q_table_best.pkl`.
 
-## Notes for GitHub
-
-The `.pkl` files are Python pickle files. Only load Q-tables from sources you trust. If you want a lighter repository, remove generated files such as `q_table.pkl`, `q_table_best.pkl`, `scores.csv`, `training_progress.png`, and `__pycache__/` before publishing, then add them to `.gitignore`.
-
 ## License
 
 No license has been specified yet. Add a license file before publishing if you want others to reuse or modify this project.
