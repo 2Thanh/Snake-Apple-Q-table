@@ -4,6 +4,10 @@ SnakeRF is a small Python project that trains a Snake-playing agent with tabular
 
 The repository includes scripts for training, watching the trained agent play, and plotting training progress.
 
+## Demo
+
+![SnakeRF Demo](source/demo.gif)
+
 ## Features
 
 - Classic Snake environment built with Pygame
@@ -78,10 +82,6 @@ Plot training progress:
 ```bash
 python plot.py
 ```
-
-## Demo
-
-![SnakeRF Demo](source/demo.gif)
 
 When `matplotlib` is installed, this writes `training_progress.png`. Otherwise, it prints an ASCII summary.
 
