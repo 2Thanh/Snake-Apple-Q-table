@@ -75,8 +75,13 @@ python watch.py --random --episodes 5
 Plot training progress:
 
 ```bash
+```bash
 python plot.py
 ```
+
+## Demo
+
+![SnakeRF Demo](source/demo.gif)
 
 When `matplotlib` is installed, this writes `training_progress.png`. Otherwise, it prints an ASCII summary.
 
